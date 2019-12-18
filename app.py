@@ -168,12 +168,12 @@ def update_graph(xaxis_column_name, yaxis_column_name,
             xaxis={
                 'title': xaxis_column_name.split(' (')[0],
                 'type': 'linear' if xaxis_type == 'Linear' else 'log',
-                'automargin':True
+                'autorange':True
             },
             yaxis={
                 'title': yaxis_column_name.split(' (')[0],
                 'type': 'linear' if yaxis_type == 'Linear' else 'log',
-                'automargin':True
+                'autorange':True
             },
             margin={'l': 65, 'b': 65, 't': 45, 'r': 0},
             hovermode='closest'
@@ -202,11 +202,11 @@ def update_graph(country_value, yaxis_column_name):
         'layout': go.Layout(
             xaxis={
                 'title': 'Years',
-                'automargin':True
+                'autorange':True
             },
             yaxis={
                 'title': yaxis_column_name.split(' (')[0],
-                'automargin':True
+                'autorange':True
             },
             margin={'l': 65, 'b': 65, 't': 45, 'r': 10},
             hovermode='closest'
