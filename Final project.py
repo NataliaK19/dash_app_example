@@ -12,7 +12,7 @@ import pandas as pd
 import numpy as np
 
 
-# In[2]:
+# In[3]:
 
 
 #Step 1: Upload and clean data
@@ -30,7 +30,7 @@ df['Value']=df['Value'].apply(value)
 
 #Step 2: Exercise 1
     
-app = app = dash.Dash(__name__)
+app = dash.Dash(__name__)
 server = app.server
 app.css.append_css({"external_url": "https://codepen.io/chriddyp/pen/bWLwgP.css"})
 
