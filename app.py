@@ -12,7 +12,7 @@ import pandas as pd
 import numpy as np
 
 
-# In[3]:
+# In[6]:
 
 
 #Step 1: Upload and clean data
@@ -43,13 +43,11 @@ app.layout = html.Div(style={'backgroundColor': '#f2eaec'}, children=[
     html.Div([
         
         html.Div([   
-            dcc.Markdown('''
-                # Final Project
-                ## Dashboard for GDP and main components (output, expenditure and income)
-                #### _Student: Natalia Korchagina_
-                ****
-                Exercise 1: Scatterplot with two DropDown boxes for the different indicators
-            ''')
+            html.H1('Final Project'),
+            html.P('Dashboard for GDP and main components (output, expenditure and income)'),
+            html.P('Student: Natalia Korchagina'),
+            html.Br(),
+            html.H4('Exercise 1: Scatterplot with two DropDown boxes for the different indicators')
         ],
         style={'textAlign': 'center'}),
         
@@ -106,10 +104,7 @@ app.layout = html.Div(style={'backgroundColor': '#f2eaec'}, children=[
     html.Div([
         
         html.Div([
-            dcc.Markdown('''
-                ****
-                Exercise 2: A line chart with two DropDown boxes
-            ''')
+            html.H4('Exercise 2: A line chart with two DropDown boxes')
         ],
         style={'textAlign': 'center'}),            
             
