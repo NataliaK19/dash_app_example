@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[2]:
 
 
 import dash
@@ -12,7 +12,7 @@ import pandas as pd
 import numpy as np
 
 
-# In[6]:
+# In[5]:
 
 
 #Step 1: Upload and clean data
@@ -203,7 +203,7 @@ def update_graph(country_value, yaxis_column_name):
                 'title': yaxis_column_name.split(' (')[0],
                 'autorange':True
             },
-            margin={'l': 65, 'b': 65, 't': 45, 'r': 10},
+            margin={'l': 65, 'b': 65, 't': 45, 'r': 15},
             hovermode='closest'
         )
     }
