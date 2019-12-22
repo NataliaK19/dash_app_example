@@ -1,2 +1,2 @@
-Git URL: https://git.heroku.com/finalproject1812.git
+Git URL: https://github.com/NataliaK19/final_project.git
 Heroku URL: https://finalproject1812.herokuapp.com/
