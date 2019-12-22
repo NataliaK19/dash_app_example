@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[1]:
 
 
 import dash
@@ -12,7 +12,7 @@ import pandas as pd
 import numpy as np
 
 
-# In[5]:
+# In[3]:
 
 
 #Step 1: Upload and clean data
@@ -44,7 +44,7 @@ app.layout = html.Div(style={'backgroundColor': '#f2eaec'}, children=[
         
         html.Div([   
             html.H1('Final Project'),
-            html.P('Dashboard for GDP and main components (output, expenditure and income)'),
+            html.H2('Dashboard for GDP and main components (output, expenditure and income)'),
             html.P('Student: Natalia Korchagina'),
             html.Br(),
             html.H4('Exercise 1: Scatterplot with two DropDown boxes for the different indicators')
